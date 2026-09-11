@@ -29,7 +29,7 @@
 			reg = <0x0 0xffb0c000 0x0 ((480 + 8) * 854 * 4)>;
 			width = <480>;
 			height = <854>;
-			stride = <((480 + 8) * 4)>;
+			stride = <(480 * 4)>;
 			format = "a8r8g8b8";
 		};
 	};
